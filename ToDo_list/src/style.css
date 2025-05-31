@@ -1,0 +1,33 @@
+@font-face{
+    font-family: Raleway;
+    src: url("assets/Raleway-Medium.ttf")
+}
+@import "tailwindcss";
+.body-style{
+    @apply max-h-full max-w-full bg-linear-to-br from-cyan-300 to-blue-700;
+}
+.content-style{
+    @apply h-screen flex justify-center mt-10;
+}
+.content{
+    @apply flex flex-col gap-5;
+}
+
+@theme{
+    --font-Raleway: Raleway,"serif";
+}
+.Header{
+    @apply text-center text-5xl text-white font-Raleway font-semibold;
+}
+.form-input{
+    @apply w-xl bg-white px-5 py-3 rounded-2xl flex justify-between;
+}
+.form-text:focus{
+    @apply border-none outline-none;
+}
+.icon{
+    @apply text-blue-600 text-xl;
+}
+.submit-btn:hover{
+    @apply border-1 border-blue-600;
+}
