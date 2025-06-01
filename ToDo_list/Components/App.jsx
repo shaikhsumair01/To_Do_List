@@ -23,16 +23,16 @@ function App() {
     return; // if the text box is submitted without a value then return
    }
 
-   // saving the input text (task) in an object along with iscomplete(for marking the list) and an id for useState.
+   // saving the input text (task) in an object along with an id for useState.
     const newtask = {
       id: Date.now(),
       text:inputText,
-      isCompelete: false,
     }
 
     // updating the task for rerender
     setTask((prev)=>[...prev, newtask]);
-    inputRef.current.value = " ";
+    // resetting the input
+    inputRef.current.value="";
     
   }
 

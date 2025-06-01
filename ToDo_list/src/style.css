@@ -56,7 +56,7 @@
 }
 /* task paragraph (todo task) */
 .task-para{
-    @apply font-Raleway text-lg font-medium text-blue-600; 
+    @apply font-Raleway text-xl font-medium tracking-wider text-blue-600; 
 }
 
 /* button container for delete and edit button*/
@@ -73,4 +73,12 @@
 }
 .icon-del{
     @apply text-red-500 hover:text-red-700;
+}
+
+/* checkbox */
+.check{
+    @apply w-5 outline-blue-600;
+}
+.completed{
+    @apply line-through text-blue-400;
 }
