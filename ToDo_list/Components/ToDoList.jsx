@@ -1,12 +1,12 @@
 import ToDoItem from "./ToDoItem";
 
 // creating a unordered list and mapping through each task to render it in the list
-export default function ToDoList(Props){
+export default function ToDoList({tasks, toggleClass, editTask, deleteTask}){
     return(
         <ul className="list">
             {
             
-            Props.tasks.map((task,index)=> <ToDoItem key={task.id} text={task.text} />)}
+            tasks.map((task)=> <ToDoItem key={task.key} id={task.id} text={task.text} completed={task.completed} edited={task.editing} toggleClass={toggleClass} editTask={editTask} deleteTask = {deleteTask} />)}
           
         </ul>
     )

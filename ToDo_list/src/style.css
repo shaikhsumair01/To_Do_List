@@ -23,8 +23,9 @@
 }
 /* heading */
 .Header{
-    @apply bg-linear-to-tr from-cyan-300 to-blue-700 shadow-md shadow-black/10 mt-[-10%] p-5 rounded-2xl text-4xl text-center text-white font-Raleway font-semibold ;
+    @apply bg-linear-to-tr from-cyan-500 to-blue-700 shadow-md shadow-black/10 mt-[-10%] p-5 rounded-2xl text-4xl text-center text-white font-Raleway font-semibold ;
 }
+
 /* form */
 .form-input{
     @apply md:w-xl sm:w-lg bg-white shadow-md shadow-black/10 px-5 py-3 rounded-2xl flex justify-between;
@@ -47,16 +48,16 @@
 
 /* list container (containing all list items) */
 .list{
-    @apply flex flex-col gap-3;
+    @apply flex flex-col gap-4;
 }
 
 /* styling the tasks */
 .task{
-    @apply flex justify-between p-3 bg-white rounded-xl ;
+    @apply flex justify-between items-center p-5 bg-linear-to-br from-cyan-300 to-blue-800 rounded-xl shadow-md shadow-black/20 ;
 }
 /* task paragraph (todo task) */
 .task-para{
-    @apply font-Raleway text-xl font-medium tracking-wider text-blue-600; 
+    @apply font-Raleway text-xl font-medium tracking-wider text-white cursor-pointer; 
 }
 
 /* button container for delete and edit button*/
@@ -69,16 +70,16 @@
 }
 
 .icon-edit{
-    @apply text-green-500 hover:text-green-700;
+    @apply text-green-400 hover:text-green-500;
 }
 .icon-del{
-    @apply text-red-500 hover:text-red-700;
+    @apply text-red-400 hover:text-red-600;
+}
+/* checkbox */
+.icon-check{
+     @apply text-xl text-white;
 }
 
-/* checkbox */
-.check{
-    @apply w-5 outline-blue-600;
-}
 .completed{
-    @apply line-through text-blue-400;
+    @apply line-through font-semibold cursor-pointer;
 }
