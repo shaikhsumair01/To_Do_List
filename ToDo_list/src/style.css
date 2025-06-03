@@ -7,15 +7,15 @@
 
 /* styling body */
 .body-style{
-    @apply max-h-screen max-w-screen bg-linear-to-br from-cyan-300 to-blue-700;
+    @apply max-h-full max-w-screen  bg-linear-to-br from-cyan-300 to-blue-700;
 }
 /* styling (centering) the root container */
 .content-style{
-    @apply h-screen w-screen flex justify-center mt-8;
+    @apply h-screen flex justify-center mt-8;
 }
 /* styling the container inside the root (containing the app) */
 .content{
-    @apply flex flex-col gap-10 p-10 h-auto bg-gray-100 rounded-2xl;
+    @apply flex flex-col gap-10 p-10 h-fit bg-gray-100 rounded-2xl;
 }
 
 @theme{
