@@ -6,3 +6,7 @@ type "cd ToDo_list" in the terminal to get the project/working directory (vite d
 
 Then run the command "npm install" to get the node module folder. 
 Then use "npm run dev" to run the project. 
+
+Github page builder link (deployed the page using the page builder):
+https://shaikhsumair01.github.io/To_Do_List/
+(Added github page builder for testing the app)
