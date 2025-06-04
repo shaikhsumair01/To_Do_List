@@ -21,7 +21,7 @@ function App() {
     // getting the text from useRef
    const inputText = inputRef.current.value.trim();
 
-   if (inputText === " "){
+   if (inputText === ""){
     return; // if the text box is submitted without a value then return
    }
 
