@@ -1,12 +1,31 @@
-**To Do list "Readme" file
-This file is created using react (vite) and tailwind. It is a simple to do list app where the user can add, update, mark and delete the tasks created by them.
+# 📝 To-Do List App
 
-To run the file first download the repo as it is from the github and unpack it. In the VS code or any other code editor open the folder (TO_DO_APP) since it's the main git directory and 
-type "cd ToDo_list" in the terminal to get into the project/working directory (vite directory). 
+A simple and efficient To-Do List application built with **React** and **Vite**. It allows users to **add**, **edit**, and **delete** tasks with a smooth and responsive interface.
 
-Then to run the command "npm install" to install the node module folder. 
-Then use "npm run dev" to run the project. 
+## 🚀 Features
 
-Github page builder link (deployed the page using the page builder):
-https://shaikhsumair01.github.io/To_Do_List/
-(Added github page builder for testing the app)
+- 📌 Add new tasks to your list
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks you’ve completed (or just changed your mind about)
+- 🌙 Clean, modern UI built with React
+- ⚡️ Lightning-fast development environment using Vite
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML5 & CSS3 (or Tailwind/Bootstrap – depending on your setup)
+
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/shaikhsumair01/To_Do_List.git
+cd ToDo_list
+npm install 
+npm run dev
+```
+🙌 Contributing
+Pull requests are welcome! Feel free to suggest improvements or new features.
+
+Made with ❤️ by Sumair
